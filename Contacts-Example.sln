@@ -3,7 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "contax-api", "contax-api\contax-api.csproj", "{8C065B21-9150-437C-B711-442684C6B380}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "contax-db", "contax-db\contax-db.sqlproj", "{33CE3A9D-8693-43A6-8B77-ACBD5405D1E8}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "contax-web", "contax-web\contax-web.esproj", "{23B694C2-4014-41B7-83BE-E861BDCC4BE9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C065B21-9150-437C-B711-442684C6B380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C065B21-9150-437C-B711-442684C6B380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C065B21-9150-437C-B711-442684C6B380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C065B21-9150-437C-B711-442684C6B380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CE3A9D-8693-43A6-8B77-ACBD5405D1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CE3A9D-8693-43A6-8B77-ACBD5405D1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CE3A9D-8693-43A6-8B77-ACBD5405D1E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{33CE3A9D-8693-43A6-8B77-ACBD5405D1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CE3A9D-8693-43A6-8B77-ACBD5405D1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CE3A9D-8693-43A6-8B77-ACBD5405D1E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{23B694C2-4014-41B7-83BE-E861BDCC4BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B694C2-4014-41B7-83BE-E861BDCC4BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B694C2-4014-41B7-83BE-E861BDCC4BE9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{23B694C2-4014-41B7-83BE-E861BDCC4BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B694C2-4014-41B7-83BE-E861BDCC4BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B694C2-4014-41B7-83BE-E861BDCC4BE9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
